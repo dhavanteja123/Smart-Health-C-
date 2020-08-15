@@ -1,0 +1,104 @@
+# depslib dependency file v1.0
+1568540464 source:d:\408\virtual doctor\dictionary.cpp
+	"Dictionary.h"
+
+1568540464 d:\408\virtual doctor\dictionary.h
+	<iostream>
+	<map>
+
+1568540464 source:d:\408\virtual doctor\dictionary_dis.cpp
+	"Dictionary_dis.h"
+
+1568540464 d:\408\virtual doctor\dictionary_dis.h
+	"Dictionary.h"
+	<iostream>
+
+1568542466 source:d:\408\virtual doctor\dictionary_doc.cpp
+	"Dictionary_doc.h"
+
+1568540464 d:\408\virtual doctor\dictionary_doc.h
+	<map>
+	"Dictionary.h"
+
+1568540464 source:d:\408\virtual doctor\dictionary_med.cpp
+	"Dictionary_med.h"
+
+1568540464 d:\408\virtual doctor\dictionary_med.h
+	"Dictionary.h"
+
+1568540464 source:d:\408\virtual doctor\search.cpp
+	"Search.h"
+
+1568540464 d:\408\virtual doctor\search.h
+	<vector>
+	<iostream>
+
+1568540464 source:d:\408\virtual doctor\search_dis.cpp
+	"Search_dis.h"
+
+1568540464 d:\408\virtual doctor\search_dis.h
+	"Search.h"
+	<vector>
+	<iostream>
+	<fstream>
+	"Dictionary_dis.h"
+	<algorithm>
+	<iostream>
+	<fstream>
+
+1568540464 source:d:\408\virtual doctor\data.cpp
+	"Data.h"
+
+1568540547 d:\408\virtual doctor\data.h
+	<iostream>
+	<algorithm>
+	<cctype>
+	<vector>
+
+1568538526 source:d:\408\virtual doctor\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<cstdlib>
+	"Data.h"
+	"Search_dis.h"
+	"Search_field.h"
+	"Search_doc.h"
+	"Search_med.h"
+
+1568540464 d:\408\virtual doctor\search_field.h
+	<vector>
+	"Search.h"
+	<fstream>
+	<algorithm>
+	<iostream>
+
+1568540464 d:\408\virtual doctor\search_doc.h
+	<iostream>
+	<fstream>
+	<vector>
+	"Search.h"
+	"Dictionary_doc.h"
+
+1568540464 d:\408\virtual doctor\search_med.h
+	"Dictionary_med.h"
+	"Search.h"
+	<fstream>
+
+1568540464 source:d:\408\virtual doctor\search_doc.cpp
+	"Search_doc.h"
+
+1568540464 source:d:\408\virtual doctor\search_field.cpp
+	"Search_field.h"
+
+1568540464 source:d:\408\virtual doctor\search_med.cpp
+	"Search_med.h"
+
+1568540464 source:d:\408\virtual doctor\validate.cpp
+	"Validate.h"
+
+1568540464 d:\408\virtual doctor\validate.h
+	<iostream>
+	<cctype>
+	<vector>
+

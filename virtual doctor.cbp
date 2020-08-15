@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="virtual doctor" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/virtual doctor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/virtual doctor" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Data.cpp" />
+		<Unit filename="Data.h" />
+		<Unit filename="Dictionary.cpp" />
+		<Unit filename="Dictionary.h" />
+		<Unit filename="Dictionary_dis.cpp" />
+		<Unit filename="Dictionary_dis.h" />
+		<Unit filename="Dictionary_doc.cpp" />
+		<Unit filename="Dictionary_doc.h" />
+		<Unit filename="Dictionary_med.cpp" />
+		<Unit filename="Dictionary_med.h" />
+		<Unit filename="Search.cpp" />
+		<Unit filename="Search.h" />
+		<Unit filename="Search_dis.cpp" />
+		<Unit filename="Search_dis.h" />
+		<Unit filename="Search_doc.cpp" />
+		<Unit filename="Search_doc.h" />
+		<Unit filename="Search_field.cpp" />
+		<Unit filename="Search_field.h" />
+		<Unit filename="Search_med.cpp" />
+		<Unit filename="Search_med.h" />
+		<Unit filename="Validate.cpp" />
+		<Unit filename="Validate.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
